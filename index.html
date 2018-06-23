@@ -9,18 +9,30 @@
     <script src="js/jquery.min.js"></script>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/show-grid.css" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <div class="row">
-            <div class="col-12">My Template</div>
+      <p class="block-color">Container > Row > Column 12 > Element</p>
+    </div>
+    <div class="container">
+        <div>
+          <p class="block-color">Container > Element</p>
         </div>
     </div>
     <div class="container">
-        <div>No Row</div>
+      <div class="row">
+        <p class="block-color w-100">Container > Row > Element(.w-100)</p>
+      </div>
     </div>
+    <div class="container-fluid">
+      <div class="row">
+        <p class="block-color w-100">Container-Fluid > Row > Element(.w-100)</p>
+      </div>
+    </div>
+    <p class="block-color">lol</p>
     <div class="grid-overlay">
+      <!-- <div id="base"> -->
         <div class="container">
           <div class="row">
             <div class="col-md-1">
@@ -48,7 +60,8 @@
             <div class="col-md-1">
               <h1 /></div>
           </div>
-        </div>
+        <!-- </div> -->
+      </div>
       </div>
 </body>
 </html>
