@@ -1,67 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <!-- jQuery -->
-    <script src="js/jquery.min.js"></script>
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/show-grid.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!-- jQuery -->
+  <script src="js/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-grid.css" rel="stylesheet">
 </head>
+
 <body>
+  <div class="template text-center">
+    <img src="./assets/BreathlessIPF.jpg" alt="">
+  </div>
+
+  <div class="grid-overlay">
     <div class="container">
-      <p class="block-color">Container > Row > Column 12 > Element</p>
+      <div class="row">
+        <div class="col-md-1">
+          <h1 />
+        </div>
+        <div class="col-md-1">
+          <h1 />
+        </div>
+        <div class="col-md-1">
+          <h1 />
+        </div>
+        <div class="col-md-1">
+          <h1 />
+        </div>
+        <div class="col-md-1">
+          <h1 />
+        </div>
+        <div class="col-md-1">
+          <h1 />
+        </div>
+        <div class="col-md-1">
+          <h1 />
+        </div>
+        <div class="col-md-1">
+          <h1 />
+        </div>
+        <div class="col-md-1">
+          <h1 />
+        </div>
+        <div class="col-md-1">
+          <h1 />
+        </div>
+        <div class="col-md-1">
+          <h1 />
+        </div>
+        <div class="col-md-1">
+          <h1 />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="grid-overlay-blocks">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p class="block-color">Container > Row > Col-12 > Element</p>
+        </div>
+      </div>
     </div>
     <div class="container">
-        <div>
-          <p class="block-color">Container > Element</p>
-        </div>
+      <div>
+        <p class="block-color">Container > Element</p>
+      </div>
     </div>
     <div class="container">
       <div class="row">
-        <p class="block-color w-100">Container > Row > Element(.w-100)</p>
+        <div class="col-12 p-0">
+          <p class="block-color">Container > Row > Col-12(.p-0) > Element</p>
+        </div>
       </div>
+    </div>
+    <div class="container p-0">
+      <p class="block-color">Container(.p-0) > Element</p>
     </div>
     <div class="container-fluid">
       <div class="row">
         <p class="block-color w-100">Container-Fluid > Row > Element(.w-100)</p>
       </div>
     </div>
-    <p class="block-color">lol</p>
-    <div class="grid-overlay">
-      <!-- <div id="base"> -->
-        <div class="container">
-          <div class="row">
-            <div class="col-md-1">
-              <h1 /></div>
-            <div class="col-md-1">
-              <h1 /></div>
-            <div class="col-md-1">
-              <h1 /></div>
-            <div class="col-md-1">
-              <h1 /></div>
-            <div class="col-md-1">
-              <h1 /></div>
-            <div class="col-md-1">
-              <h1 /></div>
-            <div class="col-md-1">
-              <h1 /></div>
-            <div class="col-md-1">
-              <h1 /></div>
-            <div class="col-md-1">
-              <h1 /></div>
-            <div class="col-md-1">
-              <h1 /></div>
-            <div class="col-md-1">
-              <h1 /></div>
-            <div class="col-md-1">
-              <h1 /></div>
-          </div>
-        <!-- </div> -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 p-0">
+          <p class="block-color">Container-Fluid > Row > Col-12(.p-0) > Element</p>
+        </div>
       </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-around">
+        <div class="col-10 p-0">
+          <p class="block-color">Container-Fluid > Row(.justify-content-around) > Col-10(.p-0) > Element</p>
+        </div>
       </div>
+    </div>
+  </div>
 </body>
+
 </html>
