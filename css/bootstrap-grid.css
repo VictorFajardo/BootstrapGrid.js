@@ -1,13 +1,5 @@
 body {
-    /* background-color: darkred; */
-}
-
-.template {
-  /* background: url('/assets/BreathlessIPF.jpg') center top no-repeat; */
-}
-
-.container {
-  max-width: 1280px;
+  background: url('../assets/BreathlessIPF.jpg') center top no-repeat;
 }
 
 .grid-overlay, .grid-overlay-blocks {
@@ -54,6 +46,30 @@ body {
   }
 
   .block-color {
-    background-color: aliceblue;
+    background-color: rgba(0, 0, 0, .1);
     border: 1px dotted;
+  }
+
+  .hero {
+    max-width: 1280px; padding: 0; height: 640px;
+  }
+  .hero-banner {
+    max-width: 1280px; padding: 0; height: 200px;
+  }
+  nav {
+    height: 60px;
+  }
+  .h80 {
+    height: 80px;
+  }
+  .h250 {
+    height: 250px;
+  }
+  .h960 {
+    height: 960px;
+  }
+
+
+.h610 {
+    height: 610px;
   }
